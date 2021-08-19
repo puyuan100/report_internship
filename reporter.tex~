@@ -1,0 +1,137 @@
+\documentclass[]{article}
+
+%\usepackage[UTF8]{ctexart}
+%\usepackage{graphics}
+% or use the graphicx package for more complicated commands
+%\usepackage{graphicx}
+
+%: ------------------------------------------------------------------
+%:                  TITLE PAGE: name, degree,..
+% -------------------------------------------------------------------
+\usepackage{graphicx}
+      \textwidth 15cm
+      \textheight 22cm
+      \parindent 10pt
+      \oddsidemargin 0.85cm
+      \evensidemargin 0.37cm
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subfigure}
+\usepackage{amsmath}
+     
+\newcommand{\ie}{\emph{i.e.,}\xspace}
+\newcommand{\eg}{\emph{e.g.,}\xspace}
+\newcommand{\etc}{etc.\xspace}
+\newcommand{\etal}{\emph{et~al.}\xspace} 
+
+\newcommand{\todo}[1]{\textcolor{blue}{#1}} 
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+
+\hspace*{0.9cm} Institut d'Optique Graduate School \hspace*{1.8cm} centre for nanoscience and nanotechnology 
+
+\vspace{1mm}
+
+\hspace*{-6.5cm}\includegraphics[height=20mm]{figures/logo/iogs.png}
+
+\vspace*{-1.8cm}\hspace*{7.5cm}\includegraphics[height=15mm]{figures/logo/c2n.png}
+
+\vspace{2cm}
+
+{\Large M2 Internship report}
+
+\vspace*{1.5cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% here is the title %%
+%%%%%%%%%%%%%%%%%%%%%%%
+\rule{.9\linewidth}{.6pt}\\[0.4cm]
+{\huge \bfseries optimization subwavelength nanostructures for hybrid integration of active materials\par}\vspace{0.4cm}
+\rule{.9\linewidth}{.6pt}\\[1.5cm]
+
+\vspace*{2mm}
+
+{\Large
+\begin{tabular}{l}
+{\bf Author:} ~~HE Puyuan~~
+\end{tabular}
+}
+
+\vspace*{2cm}
+
+\begin{tabular}{ll}
+{\it supervisor:}   & Carlos ALONSO-RAMOS \\
+\end{tabular}
+
+\vspace*{2.5cm}
+
+\textit{A thesis submitted in fulfillment of the requirements for\\ the joint UvA-VU Master of Science degree in Computer Science}
+
+\vspace*{1.8cm}
+
+\today\\[4cm] % Date
+
+\end{center}
+
+\newpage
+
+
+\tableofcontents
+
+\newpage
+
+%% ======================
+%% Here start the content
+%% ======================
+
+\section{Introduction}
+this is the introduction of optical coupler and fiber-chip grating coupler.
+
+\begin{align*}
+	a &= 1\\
+	b &= c + \frac{a}{b} 
+\end{align*}  
+
+
+% 本次实习的主要内容是学习与设计高性能的chip-fiber coupler. 吃
+\subsection{Taper coupler}
+
+\subsection{Grating coupler}
+
+\section{Subwavelength}
+
+\section{Simulation tools}
+%Chip-fiber Coupler 的优化设计主要包含两个方面：理论上的仿真设计，与实验室中的实际测量。就理论部分而言，使用合适的仿真软件可以在很大程度上减轻工作量与节约大量的时间。同时也可以对将来的实验提供较为精确的估计与预测。在我的实习过程中我主要使用Lumerical的FDTD-solutions进行模拟仿真。在亚波长结构的优化上，他给我提供了很好的帮助。
+\subsection{Lumerical}
+
+\subsection{FDTD method}
+%% 时域有限差分（Finite Difference Time Domain简称FDTD）由美籍华人Yee于1966年提出，是求解Maxwell方程的一种方法，其核心思想是将求解空间离散成笛卡尔坐标上的长方体网状结构，其中每个点赋值电场和磁场，随着时间变化每个点以蛙跳形式交替更新电场和磁场，从本质上讲，FDTD是对电磁场问题的最原始最完善的模拟，具有非常广泛的适用性。
+\section{Simulation subwavelength}
+
+\subsection{L-shaped fiber grating coupler}
+% 首先我将对L-shaped fiber-chip grating coupler 进行研究学习。希望能通过fdtd-solutions的仿真建模，复现出论文“L-shaped fiber-chip grating couplers with high-directionality and low reflectivity fabricated with deep-UV lithography” 中的结果。从而实现high-directionality and Low reflectivity的结果。同时，通过这个过程，了解熟悉Lumerical的用法与脚本语言。能够合理的控制仿真区域，仿真精度以及输出想要的实验结果。
+
+
+
+
+\section{Create structures in Graphic Data System (GDS)}
+
+\subsection{GDS introduction}
+
+\subsection{GDSPY in Python}
+
+\section{Measurement}
+
+\newpage
+
+\begin{thebibliography}{99}
+\bibitem{ref1}asdad
+\end{thebibliography}
+
+
+\end{document}          
+

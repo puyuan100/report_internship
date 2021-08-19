@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-07-15 Thu 14:10 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org1263af5">1. 20210629 - presentation</a></li>
+<li><a href="#orga8e5999">2. the content of speach</a></li>
+<li><a href="#orgbefc435">3. 20210702</a>
+<ul>
+<li><a href="#org071f377">3.1. first</a></li>
+<li><a href="#org74d9b5b">3.2. second</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1263af5" class="outline-2">
+<h2 id="org1263af5"><span class="section-number-2">1</span> 20210629 - presentation</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Sub-wavelength periodic structures are arrangements of different materials with a pitch small enough to suppress the diffraction effects arising from their periodicity.
+</p>
+
+<p>
+However, it has been with more recent development of photonic technologies and high-resolution lithography that sub-wavelength structures have seen widespread application in integrated optics.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga8e5999" class="outline-2">
+<h2 id="orga8e5999"><span class="section-number-2">2</span> the content of speach</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Hello everyone, now I'll give you a brief presentation about what I've done during the two monthes. The content of my work is simple and clear, which is to get a good performance optical coupler. And the coupler should be able to be used to coupler the light from an optical fiber to a chip. or from the chip to an optical fiber.
+</p>
+
+<p>
+At the beginning I prefer to do a little explaination of my idea. Just as what I know, we often use two different design for a coupler. One is the grating structure and one is the taper structure. here I present some of their characteristics. As we can see, the grating structure can prove highly efficiency, and higher misalignment tolerance. More importantly, the grating can redirect the light , to allow the coupler happens out of plane. And this is what I need.
+</p>
+
+<p>
+Then by reading some papers, I have a better understanding of the sub-wavelength structure. knowing its advantages. And here I only want to say its two conditions. one is the crosswise condition, which means the light propagate along the x or y direction. And the other is the lengthwise condition, the light propagate along the z axis.
+</p>
+
+<p>
+Here we firstly consider the propagation crosswise condition. Here we assume the light propagate along x direction at the figure. If we consider the diffraction effect , we can get a formula like this. Here I can express the form of sin theta. It's obvious that  when the lambda over the big lambda, which is the length of the pitch. And when this result is bigger than one, we can say for all the value of k, the value of sin theta is bigger than one. which means we now suppress the diffraction effect. The subwavelength stucture can work as a waveguide.
+</p>
+
+<p>
+And for the propagation lengthwise condition, we can also get a formula to describe the diffraction effect. I worte it here.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgbefc435" class="outline-2">
+<h2 id="orgbefc435"><span class="section-number-2">3</span> 20210702</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org071f377" class="outline-3">
+<h3 id="org071f377"><span class="section-number-3">3.1</span> first</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+I firstly set
+</p>
+
+<div class="org-src-container">
+<pre class="src src-octave">num_Lsi = 9;
+num_Lgap = 9;
+num_neff = 7;
+
+Lsi = linspace(0.21,0.45,num_Lsi)*1e-9;
+Lgap = linspace(0.21,0.45,num_Lgap)*1e-9;
+n_eff = [2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8];
+
+N = linspace(0,0,num_N)
+
+% in my code I use matrix "note_CE", "note_OL", "note_AN" to restore the CE, OL and Angle with the change of Lsi and Lgap. So for each matrix different column represents the different Lgap; and different row represents different Lsi 
+</pre>
+</div>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">target</th>
+<th scope="col" class="org-right">n</th>
+<th scope="col" class="org-right">Lsi(um)</th>
+<th scope="col" class="org-right">Lgap(um)</th>
+<th scope="col" class="org-left">max value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">maximize CE</td>
+<td class="org-right">2.4</td>
+<td class="org-right">0.3</td>
+<td class="org-right">0.36</td>
+<td class="org-left">max<sub>CE</sub> = 00.4796</td>
+</tr>
+
+<tr>
+<td class="org-left">maximize OL</td>
+<td class="org-right">2.4</td>
+<td class="org-right">0.27</td>
+<td class="org-right">0.36</td>
+<td class="org-left">max<sub>OL</sub> = 0.8356</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+I found the maximum value is taken at the boundary of Lgap. Therefore, I decide to boarden the range of the Lgap. And run the simulation again.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-octave">num_Lsi = 9;
+num_Lgap = 3;
+num_neff = 7;
+
+Lsi = linspace(0.21,0.45,num_Lsi)*1e-9;
+Lgap = [0.48, 0.51, 0.54]*1e-9;
+n_eff = [2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8];
+
+N = linspace(0,0,num_N)
+</pre>
+</div>
+
+<p>
+I found the data I got above is correct. And this data (Lgap = [0.48, 0.51, 0.54]*1e-9) is not necessary.
+</p>
+</div>
+</div>
+<div id="outline-container-org74d9b5b" class="outline-3">
+<h3 id="org74d9b5b"><span class="section-number-3">3.2</span> second</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+After finding the best n, Lsi, Lgap to obtain maximum CE and OL. The I adopt the Apodization.
+I firstly let N = [2 3 4 5 6 7] (for Apodized), which means I change the Lsi and Lgap at the first N periods of the structure. Then I note the value of n, Lsi, Lgap for each N to get the maximum CE.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">target</th>
+<th scope="col" class="org-right">N</th>
+<th scope="col" class="org-right">n</th>
+<th scope="col" class="org-right">L<sub>si</sub>(um)</th>
+<th scope="col" class="org-right">L<sub>gap</sub>(um)</th>
+<th scope="col" class="org-right">Max<sub>CE</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">max CE</td>
+<td class="org-right">2</td>
+<td class="org-right">2.7</td>
+<td class="org-right">0.27</td>
+<td class="org-right">0.36</td>
+<td class="org-right">0.5141</td>
+</tr>
+
+<tr>
+<td class="org-left">max CE</td>
+<td class="org-right">3</td>
+<td class="org-right">2.7</td>
+<td class="org-right">0.3</td>
+<td class="org-right">0.33</td>
+<td class="org-right">0.5201</td>
+</tr>
+
+<tr>
+<td class="org-left">max CE</td>
+<td class="org-right">4</td>
+<td class="org-right">2.7</td>
+<td class="org-right">0.3</td>
+<td class="org-right">0.33</td>
+<td class="org-right">0.5253</td>
+</tr>
+
+<tr>
+<td class="org-left">max CE</td>
+<td class="org-right">5</td>
+<td class="org-right">2.8</td>
+<td class="org-right">0.3</td>
+<td class="org-right">0.3</td>
+<td class="org-right">0.5309</td>
+</tr>
+
+<tr>
+<td class="org-left">max CE</td>
+<td class="org-right">6</td>
+<td class="org-right">2.8</td>
+<td class="org-right">0.3</td>
+<td class="org-right">0.3</td>
+<td class="org-right">0.5287</td>
+</tr>
+
+<tr>
+<td class="org-left">max CE</td>
+<td class="org-right">7</td>
+<td class="org-right">2.8</td>
+<td class="org-right">0.3</td>
+<td class="org-right">0.3</td>
+<td class="org-right">0.5310</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Then for each group of n, L<sub>si</sub>, L<sub>gap</sub> I set N = linspace(1,30,30), to see the change of CE.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2021-07-15 Thu 14:10</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk"
+    ],
+    // 设置VScode内部查看生成的pdf文件
+    "latex-workshop.view.pdf.viewer": "external",
+    "cSpell.words": [
+        "apodization"
+    ]
+}

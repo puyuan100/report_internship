@@ -1,0 +1,347 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.9)  18 AUG 2021 18:44
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/puyuan/Documents/report_internship/reporter.tex
+(/home/puyuan/Documents/report_internship/reporter.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count187
+\float@exts=\toks16
+\float@box=\box47
+\@float@everytoks=\toks17
+\@floatcapt=\box48
+) (/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen141
+\captionmargin@=\dimen142
+\captionwidth=\dimen143
+\caption@tempdima=\dimen144
+\caption@indent=\dimen145
+\caption@parindent=\dimen146
+\caption@hangindent=\dimen147
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count188
+\c@continuedfloat=\count189
+Package caption Info: float package is loaded.
+) (/usr/share/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip49
+\subfigcapskip=\skip50
+\subfigcaptopadj=\dimen148
+\subfigbottomskip=\skip51
+\subfigcapmargin=\dimen149
+\subfiglabelskip=\skip52
+\c@subfigure=\count190
+\c@lofdepth=\count191
+\c@subtable=\count192
+\c@lotdepth=\count193
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip53
+\subfig@bottom=\skip54
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen150
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip16
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks19
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks20
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks21
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count272
+\l__pdf_internal_box=\box51
+) (/home/puyuan/Documents/report_internship/reporter.aux
+
+LaTeX Warning: Label `fig:figure11' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure5' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure11' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure5' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure11' multiply defined.
+
+)
+\openout1 = `reporter.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count273
+\scratchdimen=\dimen159
+\scratchbox=\box52
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen160
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+<figures/logo/iogs.png, id=1, 498.86375pt x 148.555pt>
+File: figures/logo/iogs.png Graphic file (type png)
+<use figures/logo/iogs.png>
+Package pdftex.def Info: figures/logo/iogs.png  used on input line 39.
+(pdftex.def)             Requested size: 191.0926pt x 56.9055pt.
+<figures/logo/c2n.png, id=3, 277.035pt x 73.27374pt>
+File: figures/logo/c2n.png Graphic file (type png)
+<use figures/logo/c2n.png>
+Package pdftex.def Info: figures/logo/c2n.png  used on input line 41.
+(pdftex.def)             Requested size: 161.36098pt x 42.67912pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/puyuan/Documents/report_internship/figures/logo/iogs.png> </home/puyuan/Documents/report_internship/figures/logo/c2n.png>] (/home/puyuan/Documents/report_internship/reporter.toc)
+\tf@toc=\write3
+\openout3 = `reporter.toc'.
+
+ [2] [3]
+<figures/figure8.png, id=25, 568.37344pt x 414.79968pt>
+File: figures/figure8.png Graphic file (type png)
+<use figures/figure8.png>
+Package pdftex.def Info: figures/figure8.png  used on input line 143.
+(pdftex.def)             Requested size: 298.75262pt x 218.03893pt.
+ [4 </home/puyuan/Documents/report_internship/figures/figure8.png>]
+<figures/figure1.png, id=34, 783.67781pt x 456.95718pt>
+File: figures/figure1.png Graphic file (type png)
+<use figures/figure1.png>
+Package pdftex.def Info: figures/figure1.png  used on input line 176.
+(pdftex.def)             Requested size: 298.75262pt x 174.20334pt.
+<figures/figure2.png, id=35, 824.32968pt x 229.60782pt>
+File: figures/figure2.png Graphic file (type png)
+<use figures/figure2.png>
+Package pdftex.def Info: figures/figure2.png  used on input line 188.
+(pdftex.def)             Requested size: 298.75262pt x 83.2123pt.
+ [5 </home/puyuan/Documents/report_internship/figures/figure1.png>]
+<figures/figure4.png, id=40, 421.575pt x 316.18124pt>
+File: figures/figure4.png Graphic file (type png)
+<use figures/figure4.png>
+Package pdftex.def Info: figures/figure4.png  used on input line 200.
+(pdftex.def)             Requested size: 298.75262pt x 224.07051pt.
+ [6 </home/puyuan/Documents/report_internship/figures/figure2.png> </home/puyuan/Documents/report_internship/figures/figure4.png (PNG copy)>]
+<figures/figure3.png, id=45, 421.575pt x 316.18124pt>
+File: figures/figure3.png Graphic file (type png)
+<use figures/figure3.png>
+Package pdftex.def Info: figures/figure3.png  used on input line 227.
+(pdftex.def)             Requested size: 204.85802pt x 153.64684pt.
+<figures/figure5.png, id=46, 421.575pt x 316.18124pt>
+File: figures/figure5.png Graphic file (type png)
+<use figures/figure5.png>
+Package pdftex.def Info: figures/figure5.png  used on input line 230.
+(pdftex.def)             Requested size: 204.85802pt x 153.64684pt.
+<figures/figure6.png, id=47, 421.575pt x 316.18124pt>
+File: figures/figure6.png Graphic file (type png)
+<use figures/figure6.png>
+Package pdftex.def Info: figures/figure6.png  used on input line 241.
+(pdftex.def)             Requested size: 204.85802pt x 153.64684pt.
+<figures/figure7.png, id=48, 421.575pt x 316.18124pt>
+File: figures/figure7.png Graphic file (type png)
+<use figures/figure7.png>
+Package pdftex.def Info: figures/figure7.png  used on input line 244.
+(pdftex.def)             Requested size: 204.85802pt x 153.64684pt.
+ [7 </home/puyuan/Documents/report_internship/figures/figure3.png (PNG copy)> </home/puyuan/Documents/report_internship/figures/figure5.png (PNG copy)>]
+<figures/figure12.png, id=56, 1202.4925pt x 474.77374pt>
+File: figures/figure12.png Graphic file (type png)
+<use figures/figure12.png>
+Package pdftex.def Info: figures/figure12.png  used on input line 256.
+(pdftex.def)             Requested size: 298.75262pt x 117.95421pt.
+<figures/figure11.png, id=57, 1124.2pt x 998.73125pt>
+File: figures/figure11.png Graphic file (type png)
+<use figures/figure11.png>
+Package pdftex.def Info: figures/figure11.png  used on input line 265.
+(pdftex.def)             Requested size: 298.75262pt x 265.40924pt.
+ [8 </home/puyuan/Documents/report_internship/figures/figure6.png (PNG copy)> </home/puyuan/Documents/report_internship/figures/figure7.png (PNG copy)> </home/puyuan/Documents/report_internship/figures/figure12.png>]
+<figures/figure13.png, id=62, 1619.04875pt x 330.23375pt>
+File: figures/figure13.png Graphic file (type png)
+<use figures/figure13.png>
+Package pdftex.def Info: figures/figure13.png  used on input line 280.
+(pdftex.def)             Requested size: 341.43436pt x 69.63835pt.
+<figures/figure14.png, id=63, 1723.43875pt x 571.13374pt>
+File: figures/figure14.png Graphic file (type png)
+<use figures/figure14.png>
+Package pdftex.def Info: figures/figure14.png  used on input line 283.
+(pdftex.def)             Requested size: 341.43436pt x 113.14409pt.
+ [9 </home/puyuan/Documents/report_internship/figures/figure11.png>]
+<figures/figure15.png, id=68, 602.25pt x 401.5pt>
+File: figures/figure15.png Graphic file (type png)
+<use figures/figure15.png>
+Package pdftex.def Info: figures/figure15.png  used on input line 298.
+(pdftex.def)             Requested size: 298.75262pt x 199.17502pt.
+ [10 </home/puyuan/Documents/report_internship/figures/figure13.png> </home/puyuan/Documents/report_internship/figures/figure14.png> </home/puyuan/Documents/report_internship/figures/figure15.png (PNG copy)>]
+<figures/figure16.png, id=74, 421.575pt x 316.18124pt>
+File: figures/figure16.png Graphic file (type png)
+<use figures/figure16.png>
+Package pdftex.def Info: figures/figure16.png  used on input line 322.
+(pdftex.def)             Requested size: 204.85802pt x 153.64684pt.
+<figures/figure17.png, id=75, 421.575pt x 316.18124pt>
+File: figures/figure17.png Graphic file (type png)
+<use figures/figure17.png>
+Package pdftex.def Info: figures/figure17.png  used on input line 325.
+(pdftex.def)             Requested size: 204.85802pt x 153.64684pt.
+ [11 </home/puyuan/Documents/report_internship/figures/figure16.png (PNG copy)> </home/puyuan/Documents/report_internship/figures/figure17.png (PNG copy)>]
+<figures/figure20.png, id=80, 562.1pt x 421.575pt>
+File: figures/figure20.png Graphic file (type png)
+<use figures/figure20.png>
+Package pdftex.def Info: figures/figure20.png  used on input line 383.
+(pdftex.def)             Requested size: 298.75262pt x 224.06409pt.
+ [12] [13 </home/puyuan/Documents/report_internship/figures/figure20.png>] [14] (/home/puyuan/Documents/report_internship/reporter.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3931 strings out of 478994
+ 63353 string characters out of 5864752
+ 362159 words of memory out of 5000000
+ 21362 multiletter control sequences out of 15000+600000
+ 409466 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,9n,78p,1246b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /home/puyuan/Documents/report_internship/reporter.pdf (14 pages, 1341250 bytes).
+PDF statistics:
+ 142 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+
